@@ -1,0 +1,17 @@
+{
+  "name": "eu-career-site-jobs-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example: fetch job postings from company career sites with the Apify Actor polderbyte/eu-career-site-jobs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node get-jobs.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "apify-client": "^2.26.0"
+  }
+}
